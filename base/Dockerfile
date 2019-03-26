@@ -1,5 +1,5 @@
 # This image is the base image for all OpenShift v3 language container images.
-FROM centos/s2i-core-centos7
+FROM quay.io/vpavlin/s2i-core-centos7:cuda
 
 ENV SUMMARY="Base image with essential libraries and tools used as a base for \
 builder images like perl, python, ruby, etc." \
