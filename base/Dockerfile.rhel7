@@ -1,5 +1,5 @@
 # This image is the base image for all OpenShift v3 language container images.
-FROM rhscl/s2i-core-rhel7
+FROM quay.io/vpavlin/s2i-core-ubi7:ubi
 
 ENV SUMMARY="Base image with essential libraries and tools used as a base for \
 builder images like perl, python, ruby, etc." \
